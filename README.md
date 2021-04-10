@@ -132,8 +132,22 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 ## Jawab Pertanyaan
 ```
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
-    
-3. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
-4. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
-5. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+```   
+Saya melakukan perubahan pada warna font, border width, menambahkan properti font size pada body.   
+![7](https://user-images.githubusercontent.com/81839328/114267128-4447fa00-9a24-11eb-8843-b79ceb9f17ba.JPG)
+``` 
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+``` 
+Pendeklarasian CSS elemen h1 mengubah tampilan seluruh elemen yang memiliki tag h1, sedangkan #intro h1 hanya mengubah tampilan elemen h1 yang memiliki id #intro.
+```
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+```
+Deklarasi yang akan ditampilkan adalah inline CSS karena Inline CSS memiliki perrmintaan HTTP yang lebih kecil sehingga sistem membaca lebih cepat.
+![8](https://user-images.githubusercontent.com/81839328/114267914-b6224280-9a28-11eb-8350-a6ca694ed616.JPG)
+![9](https://user-images.githubusercontent.com/81839328/114267918-b8849c80-9a28-11eb-8437-07b79d5ace11.JPG)
+```
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+```
+Perbedaan dari class dan id adalah class di panggil menggunakan tanda titk dan id dengan tanda pagar, jadi kedua deklarasi tetap akan tampil pada browser.
+hanya saja class dapat di berikan pada banyak element html dan dapat di panggil sekaligus, sedangkan id hanya dapat bekerja pada satu penandaan saja
 
